@@ -335,32 +335,6 @@ This project is licensed under the MIT License.
 - Built with [React Flow](https://reactflow.dev/)
 - Powered by [FastAPI](https://fastapi.tiangolo.com/)
 
----
 
-## 📸 Screenshots
 
-### Main Interface
-Compact nodes with icon-only display and floating sidebar.
 
-### Configuration Panel
-Click any node to open its configuration panel with custom fields.
-
-### Pipeline Validation
-Submit button triggers backend validation and displays results.
-
----
-
-## 🐛 Known Issues
-
-- Browser-based testing currently unavailable due to environment configuration
-- Manual testing recommended for full verification
-
----
-
-## 📞 Support
-
-For issues, questions, or suggestions, please open an issue on GitHub.
-
----
-
-**Made with ❤️ using React Flow and FastAPI**
