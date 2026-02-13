@@ -1,4 +1,4 @@
-// textNode.js
+// textNode.js - Text Node using BaseNode with variable detection
 
 import { Position } from 'reactflow';
 import { BaseNode } from './BaseNode';
@@ -17,7 +17,8 @@ export const TextNode = ({ id, data }) => {
       {
         name: 'text',
         label: 'Text',
-        type: 'text',
+        type: 'textarea',
+        rows: 4,
         defaultValue: data?.text || '{{input}}'
       }
     ]
